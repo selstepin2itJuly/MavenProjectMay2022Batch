@@ -32,6 +32,7 @@ public class MyInfoTest {
 	  Reporter.log("Actual:"+act+"---->"+"Expected:"+11);
 	  TestUtility.embedScreenCapture();
 	  Assert.assertEquals(act,11);
+	  /* Add Comments */
 	  
   }
   @Test(priority=0,description="Info item", enabled=true, dependsOnMethods="getMyInfoItemsCount")
